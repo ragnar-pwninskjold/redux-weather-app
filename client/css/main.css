@@ -7020,44 +7020,42 @@ font-family: 'Lora', serif;
   .halfpage2 {
     clear: both;
     width: 270px;
-    float: left;
+    float: none;
+    overflow: auto;
+    margin: 0 auto;
   }
 
   .halfpage-1 {
     width: 300px;
-    float: left;
+    float: none;
     clear: both;
     border-bottom: solid;
     border-right: none;
-    margin-left: 10px;
+    margin: 0 auto;
     height: 550px;
 
   }
 
   .weather-grid {
-    float: left;
+    float: none;
     clear: both;
   }
 
   .weather-grid {
-    margin-left: 37%;
+    margin: 0 auto;
   }
 
-  /*.wedux-header {
-    margin-left: 37% !important;
-  }*/
+  .wedux-header {
+    float: none !important;
+  }
 
 
 }
 
 @media (max-width: 690px) {
-  .weather-grid {
-    margin-left: 25% !important;
+   .weather-grid {
+    margin: 0 auto;
   }
-
- /* .wedux-header {
-    margin-left: 25% !important;
-  }*/
 }  
 
 

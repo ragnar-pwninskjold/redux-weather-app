@@ -7050,7 +7050,7 @@ font-family: 'Lora', serif;
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 690px) {
   .weather-grid {
     margin-left: 25%;
   }

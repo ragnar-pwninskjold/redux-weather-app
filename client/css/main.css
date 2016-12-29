@@ -6985,6 +6985,7 @@ font-family: 'Lora', serif;
   text-align: center;
   font-size: 75px;
   margin-top: 5px;
+  float: none !important;
 }
 
 @media (max-width: 1043px) {

@@ -7032,7 +7032,6 @@ font-family: 'Lora', serif;
     border-bottom: solid;
     border-right: none;
     margin: 0 auto;
-    height: 550px;
 
   }
 
@@ -7057,6 +7056,13 @@ font-family: 'Lora', serif;
     margin: 0 auto;
   }
 }  
+
+.search-description {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+  font-size: 1.50rem;
+}
 
 
 /*end old*/

@@ -62,7 +62,7 @@ const Search = React.createClass({
 				minimumInput={2}
 			/>
 			<div className="search-description">
-			Input a cityname or zipcode to return weather in your areaffffffff
+			Input a cityname or zipcode to return weather in your area
 			</div>
 			</div>
 		)

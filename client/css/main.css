@@ -7060,7 +7060,7 @@ font-family: 'Lora', serif;
 .search-description {
   margin: 0 auto;
   width: 50%;
-  text-align: center;
+  text-align: center !important;
   font-size: 1.50rem;
 }
 

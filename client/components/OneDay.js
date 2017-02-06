@@ -2,7 +2,15 @@ import React from 'react';
 
 const OneDay = React.createClass({
 	render() {
-		return(
+		if (this.props.almanac[0] == undefined) {
+			return (
+				<div>
+				
+				</div>
+			)
+		}
+		else {
+			return(
 			<div className="halfpage-1">
 				<div className="one-day">
 						<div className="temp oneday">
@@ -35,6 +43,7 @@ const OneDay = React.createClass({
 				</div>
 			</div>
 		)
+		}
 	}
 });
 

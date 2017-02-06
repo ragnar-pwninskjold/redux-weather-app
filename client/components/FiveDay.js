@@ -1,9 +1,16 @@
 import React from 'react';
-import SingleDay from './SingleDay';
 
 const FiveDay = React.createClass({
 	render() {
-		return(
+		if (this.props.almanac[0] == undefined) {
+			return (
+				<div className="city">
+				
+				</div>
+			)
+		}
+		else{ 
+			return(
 		<div className="halfpage2">
 			<div className="five-day">
 				<div className="contain2">
@@ -54,6 +61,7 @@ const FiveDay = React.createClass({
 			</div>
 		</div>
 		)
+		}
 	}
 });
 

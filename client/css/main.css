@@ -7019,7 +7019,7 @@ font-family: 'Lora', serif;
 
   .halfpage2 {
     clear: both;
-    width: 270px;
+    width: 300px;
     float: none;
     overflow: auto;
     margin: 0 auto;
@@ -7032,6 +7032,8 @@ font-family: 'Lora', serif;
     border-bottom: solid;
     border-right: none;
     margin: 0 auto;
+    height: auto !important;
+    padding-bottom: 75px;
 
   }
 
@@ -7054,6 +7056,14 @@ font-family: 'Lora', serif;
 @media (max-width: 690px) {
    .weather-grid {
     margin: 0 auto;
+  }
+}  
+
+@media (max-width: 800px) {
+   .halfpage-1 {
+    height: auto !important;
+    padding-bottom: 75px !important;
+
   }
 }  
 
